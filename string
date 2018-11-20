@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20181120190347_create_addresses.rb
+      create    app/models/address.rb
+      invoke    test_unit
+      create      test/models/address_test.rb
+      create      test/fixtures/addresses.yml
